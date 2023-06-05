@@ -1,7 +1,3 @@
-const BlockType = require('../../extension-support/block-type');
-const ArgumentType = require('../../extension-support/argument-type');
-const {pythonGenerator} = require('./generator');
-
 const iconURL = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYuMDMgMjUxLjY4Ij48ZGVmcz48c3R5bGU+LmNsc' +
 'y0xe2ZpbGw6I2ZmZjt9PC9zdHlsZT48L2RlZnM+PGcgaWQ9IkxheWVyXzIiIGRhdGEtbmFtZT0iTGF5ZXIgMiI+PGcgaWQ9IkxheWVyXzEtMiIgZGF0YS1uYW1lPSJMYXllciAxIj48cGF0aCBjbGFzcz0iY' +
 '2xzLTEiIGQ9Ik00NC4yMiwyMS4zMWMwLDguNDMtLjA2LDE2LjczLDAsMjUsLjE0LDE1LjA5LDExLjY4LDIzLjgsMjYuMzUsMjAsNy43LTIsMTMuMS04LDEzLjU3LTE2LC40NS03LjY0LjIzLTE1LjMyLjMtM' +
