@@ -9,13 +9,11 @@
     "translate": {
         "vi": {
             "gui.externalExtension.YoloBitRoverExtension.name": "Extension mẫu",
-            "gui.externalExtension.YoloBitRoverExtension.description": "Mục mở rộng cho robot Rover",
-            "gui.externalExtension.YoloBitRoverExtension.scheduler_init": "khởi tạo bộ lập lịch"
+            "gui.externalExtension.YoloBitRoverExtension.description": "Mục mở rộng cho robot Rover"
         },
         "en": {
             "gui.externalExtension.YoloBitRoverExtension.name": "Template extension",
-            "gui.externalExtension.YoloBitRoverExtension.description": "Template extension description",
-            "gui.externalExtension.YoloBitRoverExtension.scheduler_init": "Init scheduler"
+            "gui.externalExtension.YoloBitRoverExtension.description": "Template extension description"
         }
     }
 }
