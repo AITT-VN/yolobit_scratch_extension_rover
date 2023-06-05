@@ -1,7 +1,3 @@
-const BlockType = require('../../extension-support/block-type');
-const ArgumentType = require('../../extension-support/argument-type');
-
-const {pythonGenerator} = require('./generator');
 const iconURL = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDI0IDI0IiBoZWlnaHQ9IjM2cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjM2cHgiIGZpbGw9IiNGRkZGRkYiPjxnPjxyZWN0IGZpbGw9Im5vbmUiIGhlaWdodD0iMjQiIHdpZHRoPSIyNCIvPjwvZz48Zz48Zz48Zz48cGF0aCBkPSJNOSwyMWMwLDAuNTUsMC40NSwxLDEsMWg0YzAuNTUsMCwxLTAuNDUsMS0xdi0xSDlWMjF6IE0xMiwyQzguMTQsMiw1LDUuMTQsNSw5YzAsMi4zOCwxLjE5LDQuNDcsMyw1Ljc0VjE3IGMwLDAuNTUsMC40NSwxLDEsMWg2YzAuNTUsMCwxLTAuNDUsMS0xdi0yLjI2YzEuODEtMS4yNywzLTMuMzYsMy01Ljc0QzE5LDUuMTQsMTUuODYsMiwxMiwyeiBNMTQsMTMuN1YxNmgtNHYtMi4zIEM4LjQ4LDEyLjYzLDcsMTEuNTMsNyw5YzAtMi43NiwyLjI0LTUsNS01czUsMi4yNCw1LDVDMTcsMTEuNDksMTUuNDksMTIuNjUsMTQsMTMuN3oiLz48L2c+PC9nPjwvZz48L3N2Zz4=';
 
 // Core, Team, and Official extension classes should be registered statically with the Extension Manager.
@@ -19,7 +15,7 @@ class Scratch3YoloBitRover {
     getInfo () {
         return {
             id: 'YoloBitRoverExtension',
-            parentMode: 'yolobit',
+            parentMode: 'yolo:bit',
             name: 'Rover',
             blockIconURI: iconURL,
             color1: '#cb2026',
