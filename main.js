@@ -203,7 +203,7 @@ class Scratch3YoloBitRover {
                             defaultValue: 10
                         }
                     },
-                    blockType: Scratch.BlockType.BOOLEAN
+                    blockType: Scratch.BlockType.NUMBER
                 },
                 {
                     opcode: 'rover_show_led',
@@ -332,7 +332,7 @@ class Scratch3YoloBitRover {
                             menu: 'pick_keys'
                         }
                     },
-                    blockType: Scratch.BlockType.BOOLEAN
+                    blockType: Scratch.BlockType.NUMBER
                 },
                 {
                     opcode: 'rover_press_key',
@@ -351,7 +351,7 @@ class Scratch3YoloBitRover {
                             menu: 'pick_keys'
                         }
                     },
-                    blockType: Scratch.BlockType.BOOLEAN
+                    blockType: Scratch.BlockType.NUMBER
                 },
                 {
                     opcode: 'rover_clear_key',
