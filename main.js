@@ -3,6 +3,7 @@ const iconURL = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vc
 // Core, Team, and Official extension classes should be registered statically with the Extension Manager.
 // See: scratch-vm/src/extension-support/extension-manager.js
 class Scratch3YoloBitRover {
+
     getInfo () {
         return {
             id: 'YoloBitRoverExtension',
@@ -29,7 +30,7 @@ class Scratch3YoloBitRover {
                             menu: 'dirs'
                         },
                         SPEED: {
-                            type: ArgumentType.NUMBER,
+                            type: Scratch.ArgumentType.NUMBER,
                             defaultValue: 50
                         }
                     },
@@ -52,11 +53,11 @@ class Scratch3YoloBitRover {
                             menu: 'dirs'
                         },
                         SPEED: {
-                            type: ArgumentType.NUMBER,
+                            type: Scratch.ArgumentType.NUMBER,
                             defaultValue: 50
                         },
                         TIME_DELAY: {
-                            type: ArgumentType.NUMBER,
+                            type: Scratch.ArgumentType.NUMBER,
                             defaultValue: 1000
                         }
                     },
@@ -76,11 +77,11 @@ class Scratch3YoloBitRover {
                     ],
                     arguments: {
                         LEFT: {
-                            type: ArgumentType.NUMBER,
+                            type: Scratch.ArgumentType.NUMBER,
                             defaultValue: 50
                         },
                         RIGHT: {
-                            type: ArgumentType.NUMBER,
+                            type: Scratch.ArgumentType.NUMBER,
                             defaultValue: 50
                         }
                     },
@@ -117,7 +118,7 @@ class Scratch3YoloBitRover {
                             menu: 'servo_pins'
                         },
                         VALUE: {
-                            type: ArgumentType.NUMBER,
+                            type: Scratch.ArgumentType.NUMBER,
                             defaultValue: 50
                         }
                     },
@@ -140,7 +141,7 @@ class Scratch3YoloBitRover {
                             menu: 'servo_pins'
                         },
                         VALUE: {
-                            type: ArgumentType.NUMBER,
+                            type: Scratch.ArgumentType.NUMBER,
                             defaultValue: 50
                         }
                     },
@@ -199,11 +200,11 @@ class Scratch3YoloBitRover {
                             menu: 'compare'
                         },
                         DISTANCE: {
-                            type: ArgumentType.NUMBER,
+                            type: Scratch.ArgumentType.NUMBER,
                             defaultValue: 10
                         }
                     },
-                    blockType: Scratch.BlockType.NUMBER
+                    blockType: Scratch.BlockType.BOOLEAN
                 },
                 {
                     opcode: 'rover_show_led',
@@ -263,7 +264,7 @@ class Scratch3YoloBitRover {
                             menu: 'pick_colors'
                         },
                         VALUE:{
-                            type: ArgumentType.NUMBER,
+                            type: Scratch.ArgumentType.NUMBER,
                             defaultValue: 1
                         }
                     },
@@ -308,12 +309,12 @@ class Scratch3YoloBitRover {
                     ],
                     arguments: {                        
                         DO: {
-                            type: ArgumentType.STATEMENT
+                            type: Scratch.ArgumentType.STATEMENT
                         }
                     },
                     disablePreviousStatement: true,
                     disableNextStatement: true,
-                    blockType: BlockType.CUSTOM
+                    blockType: Scratch.BlockType.CUSTOM
                 },
                 {
                     opcode: 'rover_key',
@@ -332,7 +333,7 @@ class Scratch3YoloBitRover {
                             menu: 'pick_keys'
                         }
                     },
-                    blockType: Scratch.BlockType.NUMBER
+                    blockType: Scratch.BlockType.BOOLEAN
                 },
                 {
                     opcode: 'rover_press_key',
@@ -351,7 +352,7 @@ class Scratch3YoloBitRover {
                             menu: 'pick_keys'
                         }
                     },
-                    blockType: Scratch.BlockType.NUMBER
+                    blockType: Scratch.BlockType.BOOLEAN
                 },
                 {
                     opcode: 'rover_clear_key',
