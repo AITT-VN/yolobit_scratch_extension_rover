@@ -11,7 +11,7 @@
             "gui.externalExtension.YoloBitRoverExtension.name": "Robot Rover",
             "gui.externalExtension.YoloBitRoverExtension.description": "Mục mở rộng cho robot Rover",
             "gui.externalExtension.YoloBitRoverExtension.rover_move": "di chuyển [DIR] với tốc độ [SPEED] (0-100)",
-            "gui.externalExtension.YoloBitRoverExtension.rover_move_delay": "di chuyển [DIR] với tốc độ [SPEED] (0-100) trong [TIME_DELAY]",
+            "gui.externalExtension.YoloBitRoverExtension.rover_move_delay": "di chuyển [DIR] với tốc độ [SPEED] (0-100) trong [TIME_DELAY] giây",
             "gui.externalExtension.YoloBitRoverExtension.rover_wheels_speed": "quay động cơ trái tốc độ [LEFT] động cơ phải [RIGHT] (-100 đến 100)",
             "gui.externalExtension.YoloBitRoverExtension.rover_stop": "dừng di chuyển"
 
@@ -20,7 +20,7 @@
             "gui.externalExtension.YoloBitRoverExtension.name": "Rover extension",
             "gui.externalExtension.YoloBitRoverExtension.description": "Template extension description",
             "gui.externalExtension.YoloBitRoverExtension.rover_move": "di chuyển [DIR] với tốc độ [SPEED] (0-100)",
-            "gui.externalExtension.YoloBitRoverExtension.rover_move_delay": "di chuyển [DIR] với tốc độ [SPEED] (0-100) trong [TIME_DELAY]",
+            "gui.externalExtension.YoloBitRoverExtension.rover_move_delay": "di chuyển [DIR] với tốc độ [SPEED] (0-100) trong [TIME_DELAY] giây",
             "gui.externalExtension.YoloBitRoverExtension.rover_wheels_speed": "quay động cơ trái tốc độ [LEFT] động cơ phải [RIGHT] (-100 đến 100)",
             "gui.externalExtension.YoloBitRoverExtension.rover_stop": "dừng di chuyển"
         }
