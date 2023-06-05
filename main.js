@@ -2,11 +2,12 @@ const iconURL = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vc
 
 // Core, Team, and Official extension classes should be registered statically with the Extension Manager.
 // See: scratch-vm/src/extension-support/extension-manager.js
-class Scratch3YoloBitRover {    
+class Scratch3YoloBitRover {
+
     getInfo () {
         return {
             id: 'YoloBitRoverExtension',
-            parentMode: 'yolobit',
+            parentMode: 'yolo:bit',
             name: 'Rover',
             blockIconURI: iconURL,
             color1: '#cb2026',
