@@ -44,7 +44,7 @@ class Scratch3YoloBitRover {
                     },
                     text: [
                         {
-                            default: 'di chuyển [DIR] với tốc độ [SPEED] (0-100) trong [TIME_DELAY]',
+                            default: 'di chuyển [DIR] với tốc độ [SPEED] (0-100) trong [TIME_DELAY] giây',
                             id: "gui.externalExtension.YoloBitRoverExtension.rover_move_delay"
                         }
                     ],
@@ -58,7 +58,7 @@ class Scratch3YoloBitRover {
                         },
                         TIME_DELAY: {
                             type: Scratch.ArgumentType.NUMBER,
-                            defaultValue: 1000
+                            defaultValue: 1
                         }
                     },
                     blockType: Scratch.BlockType.COMMAND
@@ -132,7 +132,7 @@ class Scratch3YoloBitRover {
                     },
                     text: [
                         {
-                            default: 'quay servo 360 chân [PINS] với tốc độ [VALUE]',
+                            default: 'quay servo 360 chân [PINS] với tốc độ [VALUE] (-100 đến 100)',
                             id: "gui.externalExtension.YoloBitRoverExtension.rover_servo_360"
                         }
                     ],
