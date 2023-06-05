@@ -1,0 +1,21 @@
+{
+    "id": "YoloBitRoverExtension",
+    "extensionDisplay": {
+        "name": "gui.externalExtension.YoloBitRoverExtension.name",
+        "iconURL": "/images/Cat03.jpg",
+        "insetIconURL": "/images/Cat03.jpg",
+        "description": "gui.externalExtension.YoloBitRoverExtension.description"
+    },
+    "translate": {
+        "vi": {
+            "gui.externalExtension.YoloBitRoverExtension.name": "Extension mẫu",
+            "gui.externalExtension.YoloBitRoverExtension.description": "Mục mở rộng cho robot Rover",
+            "gui.externalExtension.YoloBitRoverExtension.scheduler_init": "khởi tạo bộ lập lịch"
+        },
+        "en": {
+            "gui.externalExtension.YoloBitRoverExtension.name": "Template extension",
+            "gui.externalExtension.YoloBitRoverExtension.description": "Template extension description",
+            "gui.externalExtension.YoloBitRoverExtension.scheduler_init": "Init scheduler"
+        }
+    }
+}
