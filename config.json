@@ -2,8 +2,8 @@
     "id": "YoloBitRoverExtension",
     "extensionDisplay": {
         "name": "gui.externalExtension.YoloBitRoverExtension.name",
-        "iconURL": "/images/Cat03.jpg",
-        "insetIconURL": "/images/Cat03.jpg",
+        "iconURL": "/images/Rover01.jpg",
+        "insetIconURL": "/images/Rover01.jpg",
         "description": "gui.externalExtension.YoloBitRoverExtension.description"
     },
     "translate": {
