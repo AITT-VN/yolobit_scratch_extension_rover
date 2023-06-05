@@ -7,7 +7,7 @@ class Scratch3YoloBitRover {
     getInfo () {
         return {
             id: 'YoloBitRoverExtension',
-            parentMode: 'yolo:bit',
+            parentMode: 'yoloBit',
             name: 'Rover',
             blockIconURI: iconURL,
             color1: '#cb2026',
