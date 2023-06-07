@@ -151,7 +151,7 @@ class Scratch3YoloBitRover {
                     opcode: 'rover_read_linesensor',
                     rawCode: {
                         imports: 'from rover import *\n',
-                        code:'rover.read_line_sensors(/*{SEN_NUMBER}*/)\n'
+                        code:'rover.read_line_sensors(/*{SEN_NUMBER}*/)'
                     },
                     text: [
                         {
@@ -171,7 +171,7 @@ class Scratch3YoloBitRover {
                     opcode: 'rover_read_ultrasonic',
                     rawCode: {
                         imports: 'from rover import *\n',
-                        code:'rover.ultrasonic.distance_cm()\n'
+                        code:'rover.ultrasonic.distance_cm()'
                     },
                     text: [
                         {
@@ -188,7 +188,7 @@ class Scratch3YoloBitRover {
                     opcode: 'rover_compare_distance',
                     rawCode: {
                         imports: 'from rover import *\n',
-                        code:'rover.ultrasonic.distance_cm() /*{COMPARE}*/ /*{DISTANCE}*/\n'
+                        code:'rover.ultrasonic.distance_cm() /*{COMPARE}*/ /*{DISTANCE}*/'
                     },
                     text: [
                         {
@@ -233,16 +233,31 @@ class Scratch3YoloBitRover {
                     opcode: 'rover_show_RGB',
                     rawCode: {
                         imports: 'from rover import *\n',
-                        code:"rover.show_rgb_led(1, hex_to_rgb('/*{COLOR}*/'))\nrover.show_rgb_led(2, hex_to_rgb('/*{COLOR}*/'))\nrover.show_rgb_led(3, hex_to_rgb('/*{COLOR}*/'))\nrover.show_rgb_led(4, hex_to_rgb('/*{COLOR}*/'))\nrover.show_rgb_led(5, hex_to_rgb('/*{COLOR}*/'))\nrover.show_rgb_led(6, hex_to_rgb('/*{COLOR}*/'))\n"
+                        code:"rover.show_rgb_led(1, hex_to_rgb('/*{COLOR1}*/'))\nrover.show_rgb_led(2, hex_to_rgb('/*{COLOR2}*/'))\nrover.show_rgb_led(3, hex_to_rgb('/*{COLOR3}*/'))\nrover.show_rgb_led(4, hex_to_rgb('/*{COLOR4}*/'))\nrover.show_rgb_led(5, hex_to_rgb('/*{COLOR5}*/'))\nrover.show_rgb_led(6, hex_to_rgb('/*{COLOR6}*/'))\n"
                     },
                     text: [
                         {
-                            default: 'đổi led RGB 1 [COLOR] 2 [COLOR] 3 [COLOR] 4 [COLOR] 5 [COLOR] 6 [COLOR]',
+                            default: 'đổi led RGB 1 [COLOR1] 2 [COLOR2] 3 [COLOR3] 4 [COLOR4] 5 [COLOR5] 6 [COLOR6]',
                             id: "gui.externalExtension.YoloBitRoverExtension.rover_show_RGB"
                         }
                     ],
                     arguments: {                        
-                        COLOR: {
+                        COLOR1: {
+                            menu: 'pick_colors'
+                        },
+                        COLOR2: {
+                            menu: 'pick_colors'
+                        },
+                        COLOR3: {
+                            menu: 'pick_colors'
+                        },
+                        COLOR4: {
+                            menu: 'pick_colors'
+                        },
+                        COLOR5: {
+                            menu: 'pick_colors'
+                        },
+                        COLOR6: {
                             menu: 'pick_colors'
                         }
                     },
@@ -321,7 +336,7 @@ class Scratch3YoloBitRover {
                     opcode: 'rover_key',
                     rawCode: {
                         imports: 'from rover import *\n',
-                        code:"IR_REMOTE_/*{KEYS}*/\n"
+                        code:"IR_REMOTE_/*{KEYS}*/"
                     },
                     text: [
                         {
@@ -340,7 +355,7 @@ class Scratch3YoloBitRover {
                     opcode: 'rover_press_key',
                     rawCode: {
                         imports: 'from rover import *\nrover_ir_rx.start()\n',
-                        code:"rover_ir_rx.get_code() == IR_REMOTE_/*{KEYS}*/\n"
+                        code:"rover_ir_rx.get_code() == IR_REMOTE_/*{KEYS}*/"
                     },
                     text: [
                         {
@@ -359,7 +374,7 @@ class Scratch3YoloBitRover {
                     opcode: 'rover_clear_key',
                     rawCode: {
                         imports: 'from rover import *\n',
-                        code:"rover_ir_rx.clear_code()"
+                        code:"rover_ir_rx.clear_code()\n"
                     },
                     text: [
                         {
