@@ -67,20 +67,20 @@ class Scratch3YoloBitRover {
                     opcode: 'rover_wheels_speed',
                     rawCode: {
                         imports: 'from rover import *\n',
-                        code:'rover.set_wheel_speed(/*{LEFT}*/, /*{RIGHT}*/)\n'
+                        code:'rover.set_wheel_speed(/*{W_LEFT}*/, /*{W_RIGHT}*/)\n'
                     },
                     text: [
                         {
-                            default: 'quay động cơ trái tốc độ [LEFT] động cơ phải [RIGHT] (-100 đến 100)',
+                            default: 'quay động cơ trái tốc độ [W_LEFT] động cơ phải [W_RIGHT] (-100 đến 100)',
                             id: "gui.externalExtension.YoloBitRoverExtension.rover_wheels_speed"
                         }
                     ],
                     arguments: {
-                        LEFT: {
+                        W_LEFT: {
                             type: Scratch.ArgumentType.NUMBER,
                             defaultValue: 50
                         },
-                        RIGHT: {
+                        W_RIGHT: {
                             type: Scratch.ArgumentType.NUMBER,
                             defaultValue: 50
                         }
