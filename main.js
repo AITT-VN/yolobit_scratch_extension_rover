@@ -10,6 +10,9 @@ class Scratch3YoloBitRover {
             parentMode: 'yoloBit',
             name: 'Rover',
             blockIconURI: iconURL,
+            allowBlockTypes: {
+                rover_ir_event: 1
+            },
             color1: '#cb2026',
             color2: '#cb2026',
             blocks: [
@@ -452,14 +455,14 @@ class Scratch3YoloBitRover {
                     },
                     {
                         text: {
-                            default: 'S1',
+                            default: 'S3',
                             id: 'gui.externalExtension.YoloBitRoverExtension.sensorS3'
                         },
                         value: '3'
                     },
                     {
                         text: {
-                            default:'S2',
+                            default:'S4',
                             id: 'gui.externalExtension.YoloBitRoverExtension.sensorS4'
                         },
                         value: '4'
@@ -498,7 +501,7 @@ class Scratch3YoloBitRover {
                     },
                     {
                         text: {
-                            default:'>',
+                            default:'tắt',
                             id: 'gui.externalExtension.YoloBitRoverExtension.off'
                         },
                         value: '0'
