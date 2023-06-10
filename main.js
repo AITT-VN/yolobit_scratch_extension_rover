@@ -1,4 +1,5 @@
-const ImgUrl = 'https://ohstem-public.s3.ap-southeast-1.amazonaws.com/extensions/AITT-VN/yolobit_extension_rover/images/';
+const Img_detect = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiBoZWlnaHQ9IjM2cHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjM2cHgiIGZpbGw9IiMwMDAwMDAiPjxnPjxyZWN0IGZpbGw9Im5vbmUiIGhlaWdodD0iMjAiIHdpZHRoPSIyMCIvPjwvZz48Zz48cGF0aCBkPSJNMTYuNSwxNmgtMTNDMi42NywxNiwyLDE1LjMzLDIsMTQuNXYtOUMyLDQuNjcsMi42Nyw0LDMuNSw0aDEzQzE3LjMzLDQsMTgsNC42NywxOCw1LjV2OUMxOCwxNS4zMywxNy4zMywxNiwxNi41LDE2eiIvPjwvZz48L3N2Zz4=';
+const Img_none_detect = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiBoZWlnaHQ9IjM2cHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjM2cHgiIGZpbGw9IiNGRkZGRkYiPjxnPjxyZWN0IGZpbGw9Im5vbmUiIGhlaWdodD0iMjAiIHdpZHRoPSIyMCIvPjwvZz48Zz48cGF0aCBkPSJNMTYuNSwxNmgtMTNDMi42NywxNiwyLDE1LjMzLDIsMTQuNXYtOUMyLDQuNjcsMi42Nyw0LDMuNSw0aDEzQzE3LjMzLDQsMTgsNC42NywxOCw1LjV2OUMxOCwxNS4zMywxNy4zMywxNiwxNi41LDE2eiIvPjwvZz48L3N2Zz4=';
 const iconURL = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDI0IDI0IiBoZWlnaHQ9IjM2cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjM2cHgiIGZpbGw9IiNGRkZGRkYiPjxnPjxyZWN0IGZpbGw9Im5vbmUiIGhlaWdodD0iMjQiIHdpZHRoPSIyNCIgeT0iMCIvPjwvZz48Zz48cGF0aCBkPSJNMTguOTIsNi4wMUMxOC43Miw1LjQyLDE4LjE2LDUsMTcuNSw1aC0xMUM1Ljg0LDUsNS4yOSw1LjQyLDUuMDgsNi4wMUwzLDEydjhjMCwwLjU1LDAuNDUsMSwxLDFoMWMwLjU1LDAsMS0wLjQ1LDEtMXYtMSBoMTJ2MWMwLDAuNTUsMC40NSwxLDEsMWgxYzAuNTUsMCwxLTAuNDUsMS0xdi04TDE4LjkyLDYuMDF6IE03LjUsMTZDNi42NywxNiw2LDE1LjMzLDYsMTQuNVM2LjY3LDEzLDcuNSwxM1M5LDEzLjY3LDksMTQuNSBTOC4zMywxNiw3LjUsMTZ6IE0xNi41LDE2Yy0wLjgzLDAtMS41LTAuNjctMS41LTEuNXMwLjY3LTEuNSwxLjUtMS41czEuNSwwLjY3LDEuNSwxLjVTMTcuMzMsMTYsMTYuNSwxNnogTTUuODEsMTBsMS4wNC0zaDEwLjI5IGwxLjA0LDNINS44MXoiLz48L2c+PC9zdmc+';
 
 // Core, Team, and Official extension classes should be registered statically with the Extension Manager.
@@ -776,14 +777,14 @@ class Scratch3YoloBitRover {
                 line_array: [
                     {
                         text: {
-                            default: ImgUrl + "line_finder_none_detect.png",
+                            default: Img_none_detect,
                             id: 'gui.externalExtension.YoloBitRoverExtension.none_detect'
                         },
                         value: "0"
                     },
                     {
                         text: {
-                            default: ImgUrl + 'line_finder_detect.png',
+                            default: Img_detect,
                             id: 'gui.externalExtension.YoloBitRoverExtension.line_detect'
                         },
                         value: "1"
