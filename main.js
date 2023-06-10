@@ -1,3 +1,4 @@
+const ImgUrl = 'https://ohstem-public.s3.ap-southeast-1.amazonaws.com/extensions/AITT-VN/yolobit_extension_rover/images/'
 const iconURL = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDI0IDI0IiBoZWlnaHQ9IjM2cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjM2cHgiIGZpbGw9IiNGRkZGRkYiPjxnPjxyZWN0IGZpbGw9Im5vbmUiIGhlaWdodD0iMjQiIHdpZHRoPSIyNCIgeT0iMCIvPjwvZz48Zz48cGF0aCBkPSJNMTguOTIsNi4wMUMxOC43Miw1LjQyLDE4LjE2LDUsMTcuNSw1aC0xMUM1Ljg0LDUsNS4yOSw1LjQyLDUuMDgsNi4wMUwzLDEydjhjMCwwLjU1LDAuNDUsMSwxLDFoMWMwLjU1LDAsMS0wLjQ1LDEtMXYtMSBoMTJ2MWMwLDAuNTUsMC40NSwxLDEsMWgxYzAuNTUsMCwxLTAuNDUsMS0xdi04TDE4LjkyLDYuMDF6IE03LjUsMTZDNi42NywxNiw2LDE1LjMzLDYsMTQuNVM2LjY3LDEzLDcuNSwxM1M5LDEzLjY3LDksMTQuNSBTOC4zMywxNiw3LjUsMTZ6IE0xNi41LDE2Yy0wLjgzLDAtMS41LTAuNjctMS41LTEuNXMwLjY3LTEuNSwxLjUtMS41czEuNSwwLjY3LDEuNSwxLjVTMTcuMzMsMTYsMTYuNSwxNnogTTUuODEsMTBsMS4wNC0zaDEwLjI5IGwxLjA0LDNINS44MXoiLz48L2c+PC9zdmc+';
 
 // Core, Team, and Official extension classes should be registered statically with the Extension Manager.
@@ -149,6 +150,34 @@ class Scratch3YoloBitRover {
                         }
                     },
                     blockType: Scratch.BlockType.COMMAND
+                },
+                {
+                    opcode: 'rover_line_array',
+                    rawCode: {
+                        imports: 'from rover import *\n',
+                        code:'rover.read_line_sensors() == (/*{SENSOR1}*/, /*{SENSOR2}*/, /*{SENSOR3}*/, /*{SENSOR4}*/)'
+                    },
+                    text: [
+                        {
+                            default: 'cảm biến line phát hiện S1 [SENSOR1] S2 [SENSOR2] S3 [SENSOR3] S4 [SENSOR4]',
+                            id: "gui.externalExtension.YoloBitRoverExtension.rover_line_array"
+                        }
+                    ],
+                    arguments: {
+                        SENSOR1: {
+                            menu: 'line_array'
+                        },
+                        SENSOR2: {
+                            menu: 'line_array'
+                        },
+                        SENSOR3: {
+                            menu: 'line_array'
+                        },
+                        SENSOR4: {
+                            menu: 'line_array'
+                        }
+                    },
+                    blockType: Scratch.BlockType.BOOLEAN
                 },
                 {
                     opcode: 'rover_read_linesensor',
@@ -742,6 +771,22 @@ class Scratch3YoloBitRover {
                             id: 'gui.externalExtension.YoloBitRoverExtension.key9'
                         },
                         value: "9"
+                    }
+                ],
+                line_array: [
+                    {
+                        text: {
+                            default: ImgUrl + "line_finder_none_detect.png",
+                            id: 'gui.externalExtension.YoloBitRoverExtension.none_detect'
+                        },
+                        value: "0"
+                    },
+                    {
+                        text: {
+                            default: ImgUrl + 'line_finder_detect.png',
+                            id: 'gui.externalExtension.YoloBitRoverExtension.line_detect'
+                        },
+                        value: "1"
                     }
                 ]
             }
