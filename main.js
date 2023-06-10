@@ -776,15 +776,15 @@ class Scratch3YoloBitRover {
                 ],
                 line_array: [
                     {
-                        Image: {
-                            default: Img_none_detect,
+                        text: {
+                            default: 'Trắng',
                             id: 'gui.externalExtension.YoloBitRoverExtension.none_detect'
                         },
                         value: "0"
                     },
                     {
-                        Image: {
-                            default: Img_detect,
+                        text: {
+                            default: 'Đen',
                             id: 'gui.externalExtension.YoloBitRoverExtension.line_detect'
                         },
                         value: "1"
