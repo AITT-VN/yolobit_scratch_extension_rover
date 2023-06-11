@@ -778,7 +778,6 @@ class Scratch3YoloBitRover {
                     {
                         text: {
                             src: Img_none_detect,
-                            id: 'gui.externalExtension.YoloBitRoverExtension.none_detect',
                             width: 25,
                             height: 25
                         },
@@ -787,7 +786,6 @@ class Scratch3YoloBitRover {
                     {
                         text: {
                             src: Img_detect,
-                            id: 'gui.externalExtension.YoloBitRoverExtension.line_detect',
                             width: 25,
                             height: 25
                         },
