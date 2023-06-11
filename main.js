@@ -164,19 +164,15 @@ class Scratch3YoloBitRover {
                     ],
                     arguments: {
                         SENSOR1: {
-                            type: Scratch.ArgumentType.STRING,
                             menu: 'line_array'
                         },
                         SENSOR2: {
-                            type: Scratch.ArgumentType.STRING,
                             menu: 'line_array'
                         },
                         SENSOR3: {
-                            type: Scratch.ArgumentType.STRING,
                             menu: 'line_array'
                         },
                         SENSOR4: {
-                            type: Scratch.ArgumentType.STRING,
                             menu: 'line_array'
                         }
                     },
