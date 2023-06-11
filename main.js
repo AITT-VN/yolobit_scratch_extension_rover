@@ -778,7 +778,7 @@ class Scratch3YoloBitRover {
                             src: 'https://ohstem-public.s3.ap-southeast-1.amazonaws.com/extensions/AITT-VN/yolobit_extension_rover/images/line_finder_none_detect.png',
                             width: 25,
                             height: 25,
-                            alt: "*"
+                            alt: ""
                         },
                         value: '0'
                     },
@@ -787,7 +787,7 @@ class Scratch3YoloBitRover {
                             src: 'https://ohstem-public.s3.ap-southeast-1.amazonaws.com/extensions/AITT-VN/yolobit_extension_rover/images/line_finder_detect.png',
                             width: 25,
                             height: 25,
-                            alt: "*"
+                            alt: ""
                         },
                         value: '1'
                     }
