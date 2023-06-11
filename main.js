@@ -164,15 +164,19 @@ class Scratch3YoloBitRover {
                     ],
                     arguments: {
                         SENSOR1: {
+                            type: ArgumentType.STRING,
                             menu: 'line_array'
                         },
                         SENSOR2: {
+                            type: ArgumentType.STRING,
                             menu: 'line_array'
                         },
                         SENSOR3: {
+                            type: ArgumentType.STRING,
                             menu: 'line_array'
                         },
                         SENSOR4: {
+                            type: ArgumentType.STRING,
                             menu: 'line_array'
                         }
                     },
