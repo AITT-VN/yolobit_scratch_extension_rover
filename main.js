@@ -776,7 +776,7 @@ class Scratch3YoloBitRover {
                     {
                         text: {
                             src: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiBoZWlnaHQ9IjM2cHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjM2cHgiIGZpbGw9IiNGRkZGRkYiPjxnPjxyZWN0IGZpbGw9Im5vbmUiIGhlaWdodD0iMjAiIHdpZHRoPSIyMCIvPjwvZz48Zz48cGF0aCBkPSJNMTYuNSwxNmgtMTNDMi42NywxNiwyLDE1LjMzLDIsMTQuNXYtOUMyLDQuNjcsMi42Nyw0LDMuNSw0aDEzQzE3LjMzLDQsMTgsNC42NywxOCw1LjV2OUMxOCwxNS4zMywxNy4zMywxNiwxNi41LDE2eiIvPjwvZz48L3N2Zz4=',
-                            width: 50,
+                            width: 25,
                             height: 25
                         },
                         value: '0'
@@ -784,7 +784,7 @@ class Scratch3YoloBitRover {
                     {
                         text: {
                             src: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiBoZWlnaHQ9IjM2cHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjM2cHgiIGZpbGw9IiMwMDAwMDAiPjxnPjxyZWN0IGZpbGw9Im5vbmUiIGhlaWdodD0iMjAiIHdpZHRoPSIyMCIvPjwvZz48Zz48cGF0aCBkPSJNMTYuNSwxNmgtMTNDMi42NywxNiwyLDE1LjMzLDIsMTQuNXYtOUMyLDQuNjcsMi42Nyw0LDMuNSw0aDEzQzE3LjMzLDQsMTgsNC42NywxOCw1LjV2OUMxOCwxNS4zMywxNy4zMywxNiwxNi41LDE2eiIvPjwvZz48L3N2Zz4=',
-                            width: 50,
+                            width: 25,
                             height: 25
                         },
                         value: '1'
