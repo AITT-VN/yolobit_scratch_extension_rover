@@ -9,12 +9,18 @@
     "translate": {
         "vi": {
             "gui.externalExtension.YoloBitRoverExtension.name": "Robot Rover",
-            "gui.externalExtension.YoloBitRoverExtension.description": "Mục mở rộng cho robot Rover"
+            "gui.externalExtension.YoloBitRoverExtension.description": "Mục mở rộng cho robot Rover",
+            "gui.externalExtension.YoloBitRoverExtension.rover_move": "di chuyển [DIR] với tốc độ [SPEED] (0-100)",
+            "gui.externalExtension.YoloBitRoverExtension.rover_move_delay": "di chuyển [DIR] với tốc độ [SPEED] (0-100) trong [TIME_DELAY] giây",
+            "gui.externalExtension.YoloBitRoverExtension.rover_wheels_speed": "quay động cơ trái tốc độ [SPEED_LEFT] động cơ phải [SPEED_RIGHT] (-100 đến 100)"
 
         },
         "en": {
             "gui.externalExtension.YoloBitRoverExtension.name": "Rover extension",
-            "gui.externalExtension.YoloBitRoverExtension.description": "Template extension description"
+            "gui.externalExtension.YoloBitRoverExtension.description": "Template extension description",
+            "gui.externalExtension.YoloBitRoverExtension.rover_move": "move [DIR] with speed [SPEED] (0-100)",
+            "gui.externalExtension.YoloBitRoverExtension.rover_move_delay": "move [DIR] with speed [SPEED] (0-100) in [TIME_DELAY] seconds",
+            "gui.externalExtension.YoloBitRoverExtension.rover_wheels_speed": "move left wheel [SPEED_LEFT] right wheek [SPEED_RIGHT] (-100 to 100)"
     }
 }
 }
