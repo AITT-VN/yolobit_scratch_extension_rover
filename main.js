@@ -423,29 +423,37 @@ class Scratch3YoloBitRover {
                 dirs: [
                     {
                         text: {
-                            default: 'tới',
-                            id: 'gui.externalExtension.YoloBitRoverExtension.forward'
+                            src: 'https://ohstem-public.s3.ap-southeast-1.amazonaws.com/extensions/AITT-VN/yolobit_extension_rover/images/arrow-up.svg',
+                            width: 15,
+                            height: 15,
+                            alt: "tới"
                         },
                         value: '.forward'
                     },
                     {
                         text: {
-                            default:'lùi',
-                            id: 'gui.externalExtension.YoloBitRoverExtension.backward'
+                            src: 'https://ohstem-public.s3.ap-southeast-1.amazonaws.com/extensions/AITT-VN/yolobit_extension_rover/images/arrow-down.svg',
+                            width: 15,
+                            height: 15,
+                            alt: "lùi"
                         },
                         value: '.backward'
                     },
                     {
                         text: {
-                            default:'trái',
-                            id: 'gui.externalExtension.YoloBitRoverExtension.left'
+                            src: 'https://ohstem-public.s3.ap-southeast-1.amazonaws.com/extensions/AITT-VN/yolobit_extension_rover/images/arrow-left.svg',
+                            width: 15,
+                            height: 15,
+                            alt: "trái"
                         },
                         value: '.turn_left'
                     },
                     {
                         text: {
-                            default: 'phải',
-                            id: 'gui.externalExtension.YoloBitRoverExtension.left'
+                            src: 'https://ohstem-public.s3.ap-southeast-1.amazonaws.com/extensions/AITT-VN/yolobit_extension_rover/images/arrow-right.svg',
+                            width: 15,
+                            height: 15,
+                            alt: "phải"
                         },
                         value: '.turn_right'
                     }
