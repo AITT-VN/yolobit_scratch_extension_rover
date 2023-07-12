@@ -12,15 +12,46 @@
             "gui.externalExtension.YoloBitRoverExtension.description": "Mục mở rộng cho robot Rover",
             "gui.externalExtension.YoloBitRoverExtension.rover_move": "di chuyển [DIR] với tốc độ [SPEED] (0-100)",
             "gui.externalExtension.YoloBitRoverExtension.rover_move_delay": "di chuyển [DIR] với tốc độ [SPEED] (0-100) trong [TIME_DELAY] giây",
-            "gui.externalExtension.YoloBitRoverExtension.rover_wheels_speed": "quay động cơ trái tốc độ [SPEED_LEFT] động cơ phải [SPEED_RIGHT] (-100 đến 100)"
+            "gui.externalExtension.YoloBitRoverExtension.rover_wheels_speed": "quay động cơ trái tốc độ [SPEED_LEFT] động cơ phải [SPEED_RIGHT] (-100 đến 100)",
+            "gui.externalExtension.YoloBitRoverExtension.rover_stop": "dừng di chuyển",
+            "gui.externalExtension.YoloBitRoverExtension.rover_servo_180": "quay servo chân [PINS] đến vị trí (0-180 độ) [VALUE]",
+            "gui.externalExtension.YoloBitRoverExtension.rover_servo_360": "quay servo 360 chân [PINS] với tốc độ [VALUE] (-100 đến 100)",
+            "gui.externalExtension.YoloBitRoverExtension.rover_line_array": "cảm biến line phát hiện S1 [SENSOR1] S2 [SENSOR2] S3 [SENSOR3] S4 [SENSOR4]",
+            "gui.externalExtension.YoloBitRoverExtension.rover_read_linesensor": "cảm biến line đọc giá trị [SEN_NUMBER]",
+            "gui.externalExtension.YoloBitRoverExtension.rover_read_ultrasonic": "đọc cảm biến khoảng cách",
+            "gui.externalExtension.YoloBitRoverExtension.rover_compare_distance": "đọc cảm biến khoảng cách [COMPARE] [DISTANCE] cm",
+            "gui.externalExtension.YoloBitRoverExtension.rover_show_led": "[STATUS] đèn [LED]",
+            "gui.externalExtension.YoloBitRoverExtension.rover_show_RGB": "đổi led RGB 1 [COLOR1] 2 [COLOR2] 3 [COLOR3] 4 [COLOR4] 5 [COLOR5] 6 [COLOR6]",
+            "gui.externalExtension.YoloBitRoverExtension.rover_show_RGBled": "đổi led RGB số [VALUE] thành màu [COLOR]",
+            "gui.externalExtension.YoloBitRoverExtension.rover_showall_RGBled": "đổi màu tất cả led RGB thành màu [COLOR]",
+            "gui.extension.YoloBitRoverExtension.rover_ir_event": "nếu nhận được tín hiệu từ remote",
+            "gui.externalExtension.YoloBitRoverExtension.rover_key": "nút [KEYS]",
+            "gui.externalExtension.YoloBitRoverExtension.rover_press_key": "nút [KEYS] trên remote được nhấn",
+            "gui.externalExtension.YoloBitRoverExtension.rover_clear_key": "xóa tín hiệu đã thu được"
+
 
         },
         "en": {
             "gui.externalExtension.YoloBitRoverExtension.name": "Rover extension",
-            "gui.externalExtension.YoloBitRoverExtension.description": "Template extension description",
+            "gui.externalExtension.YoloBitRoverExtension.description": "Rover extension for Yolo:Bit",
             "gui.externalExtension.YoloBitRoverExtension.rover_move": "move [DIR] with speed [SPEED] (0-100)",
             "gui.externalExtension.YoloBitRoverExtension.rover_move_delay": "move [DIR] with speed [SPEED] (0-100) in [TIME_DELAY] seconds",
-            "gui.externalExtension.YoloBitRoverExtension.rover_wheels_speed": "move left wheel [SPEED_LEFT] right wheek [SPEED_RIGHT] (-100 to 100)"
+            "gui.externalExtension.YoloBitRoverExtension.rover_wheels_speed": "move left wheel [SPEED_LEFT] right wheel [SPEED_RIGHT] (-100 to 100)",
+            "gui.externalExtension.YoloBitRoverExtension.rover_stop": "stop",
+            "gui.externalExtension.YoloBitRoverExtension.rover_servo_180": "rotate servo at pin [PINS] to angle (0-180 degree) [VALUE]",
+            "gui.externalExtension.YoloBitRoverExtension.rover_servo_360": "rotate servo 360 at pin [PINS] with speed [VALUE] (-100 to 100)",
+            "gui.externalExtension.YoloBitRoverExtension.rover_line_array": "line finder detected S1 [SENSOR1] S2 [SENSOR2] S3 [SENSOR3] S4 [SENSOR4]",
+            "gui.externalExtension.YoloBitRoverExtension.rover_read_linesensor": "line finder read value [SEN_NUMBER]",
+            "gui.externalExtension.YoloBitRoverExtension.rover_read_ultrasonic": "read distance sensor",
+            "gui.externalExtension.YoloBitRoverExtension.rover_compare_distance": "read distance sensor [COMPARE] [DISTANCE] cm",
+            "gui.externalExtension.YoloBitRoverExtension.rover_show_led": "[STATUS] LED [LED]",
+            "gui.externalExtension.YoloBitRoverExtension.rover_show_RGB": "change led RGB 1 [COLOR1] 2 [COLOR2] 3 [COLOR3] 4 [COLOR4] 5 [COLOR5] 6 [COLOR6]",
+            "gui.externalExtension.YoloBitRoverExtension.rover_show_RGBled": "change led RGB number [VALUE] to [COLOR]",
+            "gui.externalExtension.YoloBitRoverExtension.rover_showall_RGBled": "change all led RGB to [COLOR]",
+            "gui.extension.YoloBitRoverExtension.rover_ir_event": "when receive remote signal",
+            "gui.externalExtension.YoloBitRoverExtension.rover_key": "button [KEYS]",
+            "gui.externalExtension.YoloBitRoverExtension.rover_press_key": "button [KEYS] on remote is pressed?",
+            "gui.externalExtension.YoloBitRoverExtension.rover_clear_key": "clear remote signal"
     }
 }
 }
