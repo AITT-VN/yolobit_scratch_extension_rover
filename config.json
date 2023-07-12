@@ -27,7 +27,26 @@
             "gui.extension.YoloBitRoverExtension.rover_ir_event": "nếu nhận được tín hiệu từ remote",
             "gui.externalExtension.YoloBitRoverExtension.rover_key": "nút [KEYS]",
             "gui.externalExtension.YoloBitRoverExtension.rover_press_key": "nút [KEYS] trên remote được nhấn",
-            "gui.externalExtension.YoloBitRoverExtension.rover_clear_key": "xóa tín hiệu đã thu được"
+            "gui.externalExtension.YoloBitRoverExtension.rover_clear_key": "xóa tín hiệu đã thu được",
+            "gui.externalExtension.YoloBitRoverExtension.on": "bật",
+            "gui.externalExtension.YoloBitRoverExtension.off": "tắt",
+            "gui.externalExtension.YoloBitRoverExtension.on_all": "cả 2 bên",
+            "gui.externalExtension.YoloBitRoverExtension.on_left": "trái",
+            "gui.externalExtension.YoloBitRoverExtension.on_right": "phải",
+            "gui.externalExtension.YoloBitRoverExtension.red": "đỏ",
+            "gui.externalExtension.YoloBitRoverExtension.orange": "cam",
+            "gui.externalExtension.YoloBitRoverExtension.yellow": "vàng",
+            "gui.externalExtension.YoloBitRoverExtension.green": "lục",
+            "gui.externalExtension.YoloBitRoverExtension.blue": "lam",
+            "gui.externalExtension.YoloBitRoverExtension.cyan": "chàm",
+            "gui.externalExtension.YoloBitRoverExtension.violet": "tím",
+            "gui.externalExtension.YoloBitRoverExtension.white": "trắng",
+            "gui.externalExtension.YoloBitRoverExtension.black": "đen",
+            "gui.externalExtension.YoloBitRoverExtension.key_up": "tới",
+            "gui.externalExtension.YoloBitRoverExtension.key_down": "lui",
+            "gui.externalExtension.YoloBitRoverExtension.key_left": "trái",
+            "gui.externalExtension.YoloBitRoverExtension.key_right": "phải"
+
 
 
         },
@@ -51,7 +70,25 @@
             "gui.extension.YoloBitRoverExtension.rover_ir_event": "when receive remote signal",
             "gui.externalExtension.YoloBitRoverExtension.rover_key": "button [KEYS]",
             "gui.externalExtension.YoloBitRoverExtension.rover_press_key": "button [KEYS] on remote is pressed?",
-            "gui.externalExtension.YoloBitRoverExtension.rover_clear_key": "clear remote signal"
+            "gui.externalExtension.YoloBitRoverExtension.rover_clear_key": "clear remote signal",
+            "gui.externalExtension.YoloBitRoverExtension.on": "on",
+            "gui.externalExtension.YoloBitRoverExtension.off": "off",
+            "gui.externalExtension.YoloBitRoverExtension.on_all": "both",
+            "gui.externalExtension.YoloBitRoverExtension.on_left": "left",
+            "gui.externalExtension.YoloBitRoverExtension.on_right": "right",
+            "gui.externalExtension.YoloBitRoverExtension.red": "red",
+            "gui.externalExtension.YoloBitRoverExtension.orange": "orange",
+            "gui.externalExtension.YoloBitRoverExtension.yellow": "yellow",
+            "gui.externalExtension.YoloBitRoverExtension.green": "green",
+            "gui.externalExtension.YoloBitRoverExtension.blue": "blue",
+            "gui.externalExtension.YoloBitRoverExtension.cyan": "cyan",
+            "gui.externalExtension.YoloBitRoverExtension.violet": "violer",
+            "gui.externalExtension.YoloBitRoverExtension.white": "white",
+            "gui.externalExtension.YoloBitRoverExtension.black": "black",
+            "gui.externalExtension.YoloBitRoverExtension.key_up": "forward",
+            "gui.externalExtension.YoloBitRoverExtension.key_down": "backward",
+            "gui.externalExtension.YoloBitRoverExtension.key_left": "left",
+            "gui.externalExtension.YoloBitRoverExtension.key_right": "right"
     }
 }
 }
