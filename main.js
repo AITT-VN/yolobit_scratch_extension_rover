@@ -85,7 +85,7 @@ class Scratch3YoloBitRover {
                         },
                         SPEED_RIGHT: {
                             type: Scratch.ArgumentType.NUMBER,
-                            defaultValue: 1
+                            defaultValue: 50
                         }
                     },
                     blockType: Scratch.BlockType.COMMAND
