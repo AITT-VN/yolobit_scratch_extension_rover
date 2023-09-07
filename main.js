@@ -43,7 +43,7 @@ class Scratch3YoloBitRover {
                     opcode: 'rover_move_delay',
                     rawCode: {
                         imports: 'from rover import *\n',
-                        code:'rover/*{DIR}*/(/*{SPEED}*/, /*{TIME_DELAY}*/)\n'
+                        code:'rover/*{DIR}*/(/*{SPEED}*/, /*{TIME_DELAY}*/)\nrover.set_wheel_speed(-5, -5)\ntime.sleep_ms(100)\nrover.stop()\n'
                     },
                     text: [
                         {
@@ -94,7 +94,7 @@ class Scratch3YoloBitRover {
                     opcode: 'rover_stop',
                     rawCode: {
                         imports: 'from rover import *\n',
-                        code:'rover.stop()\n'
+                        code:'rover.set_wheel_speed(-5, -5)\ntime.sleep_ms(100)\nrover.stop()\n'
                     },
                     text: [
                         {
